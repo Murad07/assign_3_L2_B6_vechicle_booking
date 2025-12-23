@@ -2,7 +2,7 @@
 
 ## ERD Diagram
 
-![ERD Diagram](https://lucid.app/lucidchart/9c05ca75-9053-4665-8c71-387ee365c731/edit?invitationId=inv_ae9d1bb1-92df-46a9-bbf0-11541f8b0535)
+[ERD Diagram](https://lucid.app/lucidchart/9c05ca75-9053-4665-8c71-387ee365c731/edit?invitationId=inv_ae9d1bb1-92df-46a9-bbf0-11541f8b0535)
 
 ## Video Link
 
