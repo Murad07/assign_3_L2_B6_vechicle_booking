@@ -4,6 +4,10 @@
 
 ![ERD Diagram](https://lucid.app/lucidchart/9c05ca75-9053-4665-8c71-387ee365c731/edit?invitationId=inv_ae9d1bb1-92df-46a9-bbf0-11541f8b0535)
 
+## Video Link
+
+[Video Link](https://drive.google.com/file/d/17NdhdOTPOqfIoHZHNVyy9YXslNtyBM_S/view?usp=sharing)
+
 ## Project Overview
 
 This project consists of a set of SQL queries for vehicle booking management. Including joins, subqueries with `EXISTS`, filtering with `WHERE`, and aggregation with `GROUP BY` and `HAVING`. These queries will analyzing data of users, vehicles, and bookings.
