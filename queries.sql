@@ -1,7 +1,13 @@
 -- Query 1: JOIN
 -- Retrieve booking information along with: Customer name, Vehicle name.
 
-select b.booking_id, u.name as customer_name, v.name, b.start_date, b.end_date, b.status
+select
+    b.booking_id,
+    u.name as customer_name,
+    v.name as vehicle_name,
+    b.start_date,
+    b.end_date,
+    b.status
 from
     bookings as b
     inner join users as u on u.user_id = b.user_id
@@ -28,7 +34,9 @@ select * from vehicles where status = 'available' and type = 'car';
 -- Query 4: GROUP BY and HAVING
 -- Find the total number of bookings for each vehicle and display only those vehicles that have more than 2 bookings.
 
-select v.name, count(b.*) as total_bookings
+select
+    v.name as vehicle_name,
+    count(b.*) as total_bookings
 from bookings as b
     join vehicles as v on v.vehicle_id = b.vehicle_id
 group by
